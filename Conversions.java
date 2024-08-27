@@ -91,6 +91,22 @@ public class Conversions
             double joules = kilocalorie*4184;
             System.out.println(kilocalorie + " kilocalorie is " + joules + " joules");
         }
+        if (selection == 9)
+        {
+            System.out.println("Enter Pound: ");
+            double pound = keyboard.nextDouble();
+            keyboard.nextLine();
+            double gram = pound/453.7;
+            System.out.println(pound + " Pound is " + gram + " Gram");
+        }
+         if (selection == 10)
+        {
+            System.out.println("Enter Gram: ");
+            double gram = keyboard.nextDouble();
+            keyboard.nextLine();
+            double pound = gram*453.7;
+            System.out.println(gram + " Gram is " + pound + " Pound");
+        }
         //add more if statements here.
     }
 }
