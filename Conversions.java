@@ -19,6 +19,8 @@ public class Conversions
         System.out.println("6. Milliliters to Ounces");
         System.out.println("7. Joules to Kilocalorie");
         System.out.println("8. Kilocalorie to Joules");
+        System.out.println("9. Pounds to Gram");
+        System.out.println("10. Gram to Pounds");
         //Add 2 more conversions, each both ways, to add choices 7, 8, 9, and 10.
         //You can add even more if you would like.
 
